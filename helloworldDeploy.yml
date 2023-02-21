@@ -38,6 +38,8 @@ spec:
         ports:
         - containerPort: 80
           name: uvicorn
+      imagePullSecrets:
+      - name: acr-secret
 
 ---
 
